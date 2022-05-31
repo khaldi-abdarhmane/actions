@@ -36,7 +36,7 @@ jobs:
       - run: |
           echo This job does specify a container.
           echo It runs in the container instead of the VM.
-          cd /khaldi/hhh
           ls -la
-          cat h.txt
+          cd khaldi
+          ls -la
         name: Run in container
