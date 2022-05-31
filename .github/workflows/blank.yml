@@ -28,7 +28,8 @@ jobs:
         name: Run on VM
   container:
     runs-on: self-hosted
-    container: imag3:latest
+    container: 
+     image: imag3:latest
     steps:
       - name: Check out code
         uses: actions/checkout@v2
