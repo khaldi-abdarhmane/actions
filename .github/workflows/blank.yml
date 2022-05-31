@@ -30,4 +30,5 @@ jobs:
       - run: |
           echo This job does specify a container.
           echo It runs in the container instead of the VM.
+          ls -la
         name: Run in container
